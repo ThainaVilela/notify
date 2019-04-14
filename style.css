@@ -9,9 +9,9 @@ body {
     grid-template-rows: 83vh 45vh 57vh 63vh 18vh;
     grid-template-columns: 34vw 34vw 31vw;
 }
-*{
-    font-family: arial;
-}
+
+*{font-family: arial;}
+
 header {
     grid-area: header;
     background-image: url(imagens/banner.png);
@@ -224,12 +224,15 @@ h3{
 .input{    
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+    }
 .input input{
     width:261px;
     padding: 0;
     border: 0;
     height: 51px;
+    border-bottom-left-radius: 7%;
+    border-top-left-radius: 7px;
 
 }
 
@@ -243,7 +246,8 @@ h3{
     color: white;
     font-family: arial;
     background-color: #2fd072;
-    
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
